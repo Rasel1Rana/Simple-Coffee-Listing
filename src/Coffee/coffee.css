@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(image/bg-cafe.jpg);
+  background-repeat: no-repeat;
+  background-color: #111315;
+  height: 1280px;
+}
+
+.coffees-container {
+  background-color: #1b1d1f;
+  width: 80vw;
+  height: 75%;
+  border-radius: 20px;
+  color: #fef7ee;
+}
+.heading h1 {
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 2rem;
+}
+.discription {
+  color: #6f757c;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.heading {
+  padding-top: 100px;
+  background-image: url("image/vector.svg");
+  background-repeat: no-repeat;
+  background-position: 62% 6%;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20px; */
+}
+.tabs-container button {
+  color: #fef7ee;
+  background-color: #1b1d1f;
+  padding: 8px 17px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px 10px;
+  font-size: 15px;
+}
+.coffee-list {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px 40px;
+  margin: 30px auto;
+  width: 71%;
+}
+
+.coffee-name-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular {
+  position: relative;
+  top: 40px;
+  left: 15px;
+  background-color: #f6c768;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 19px;
+  width: 75px;
+  padding: 5px 11px;
+}
